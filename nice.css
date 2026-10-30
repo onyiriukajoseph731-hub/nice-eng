@@ -139,3 +139,56 @@ transition: 0.3s ease;}
 
 .alot :hover{ color: blue;
 transition: 0.3s ease;}
+
+/* =========================================
+   RESPONSIVENESS MEDIA QUERIES
+   ========================================= */
+
+/* Tablets and below (Width: 1024px and down) */
+@media screen and (max-width: 1024px) {
+  .navlink {
+    margin-left: 50px;
+    gap: 10px;
+  }
+  
+  .navlink a {
+    gap: 15px;
+  }
+}
+
+/* Mobile devices (Width: 768px and down) */
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 10px;
+    gap: 15px;
+
+  }
+
+  .navlink {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 20px;
+  }
+
+  .navlink a {
+    gap: 15px;
+    font-size: 16px;
+  }
+
+  .engr {
+    margin-right: 0;
+  }
+
+  .second {
+    padding: 15px;
+    
+  }
+
+  .verify {
+    flex-direction: column;
+  }
+}
